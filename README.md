@@ -12,35 +12,36 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 ### STEP 1: 
 
-Write your own steps
+Load the Iris dataset using a suitable library.
 
 ### STEP 2: 
 
-
+Preprocess the data by handling missing values and normalizing features.
 
 ### STEP 3: 
 
-
+Split the dataset into training and testing sets.
 
 ### STEP 4: 
 
-
+Train a classification model using the training data.
 
 ### STEP 5: 
 
-
+Evaluate the model on the test data and calculate accuracy.
 
 ### STEP 6: 
 
+Display the test accuracy, confusion matrix, and classification report.
 
 
 
 
 ## PROGRAM
 
-### Name:
+### Name: Jayagar.T
 
-### Register Number:
+### Register Number: 212224220042
 
 ```python
 import torch
@@ -156,7 +157,6 @@ print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 ```
 
 ### Dataset Information
-Include screenshot of the dataset.
 
 <img width="652" height="521" alt="image" src="https://github.com/user-attachments/assets/3bd88684-a0b7-4ec6-a7ea-136608c0c869" />
 
@@ -165,21 +165,18 @@ Include screenshot of the dataset.
 
 ## Confusion Matrix
 
-<img width="493" height="436" alt="image" src="https://github.com/user-attachments/assets/1589ca7b-2dbf-4a4d-90cb-04d7b9cc37cc" />
+<img width="378" height="350" alt="image" src="https://github.com/user-attachments/assets/538a689b-e130-47a2-9e98-b110bb904fc8" />
 
-Include confusion matrix here
 
 ## Classification Report
-Include classification report here
 
 <img width="462" height="147" alt="image" src="https://github.com/user-attachments/assets/cfc84230-811c-4f34-872f-017f967122fd" />
 
 
 ### New Sample Data Prediction
-Include your sample input and output here
 
 <img width="291" height="33" alt="image" src="https://github.com/user-attachments/assets/c61ca7bf-884d-4680-af55-853e57e61f96" />
 
 
 ## RESULT
-Include your result here
+Thus, a neural network classification model was successfully developed and trained using PyTorch
